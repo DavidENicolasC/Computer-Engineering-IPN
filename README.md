@@ -1,2 +1,2 @@
 # Trabajos-Escolares
-Prácticas de la Carrera
+# Carrera: Ingeniería en Computación
