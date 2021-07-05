@@ -1,2 +1,2 @@
-# Trabajos-Escolares
-# Carrera: Ingeniería en Computación
+# Portafolio de Carrera
+*Ingeniería en Computación*
