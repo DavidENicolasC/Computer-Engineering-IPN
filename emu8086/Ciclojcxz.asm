@@ -1,6 +1,6 @@
 COMMENT * Escribir un programa que saque en pantalla con el formato
           Mi nombre es david
-          utilizando el ciclo loop
+          utilizando el ciclo jcxz y la instruccion loop
           con directivas no simplificadas. *
         
 pila segment para stack 'stack'                    ;Se define el area de la pila
