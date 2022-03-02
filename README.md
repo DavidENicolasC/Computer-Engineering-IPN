@@ -7,33 +7,17 @@
 </p>
 
 <p align="center"> 
-  <b> <A HREF="https://www.ipn.mx/oferta-educativa/educacion-superior/ver-carrera.html?lg=es&id=6&nombre=Ingeniería-en-Computación" > Ingeniería en Computación - ESIME Culhuacan - IPN </A> </b>
+  <b> <A HREF="https://www.ipn.mx/oferta-educativa/educacion-superior/ver-carrera.html?lg=es&id=6&nombre=Ingeniería-en-Computación" > Ingeniería en Computación - ESIME Culhuacán - IPN </A> </b>
 </p>
+
+---
 
 <p align="center">
-<b> Únicamente se incluyen los trabajos donde hubo programación o el uso de algún software de simulación; el resto están excluidos. </b>
+<b> Nota: Únicamente se incluyen los trabajos donde hubo programación o el uso de algún software de simulación; el resto están excluidos. </b>
 </p>
 
-| 1er Semestre |
-|--|
-| Fundamentos de Programación (C) |
+---
 
-| 2do Semestre |
-|--|
-| Álgebra Lineal (MATLAB) |
-| Cálculo Vectorial (MATLAB) |
-| Matemáticas Discretas (C++) |
-| Programación Orientada a Objetos (C++, Java) |
-
-| 3er Semestre |
-|--|
-| Ecuaciones Diferenciales (MATLAB) |
-| Circuitos Lógicos I (Proteus) |
-| Lenguajes de Bajo Nivel (Ensamblador Intel 8086) |
-| Estructura de Datos (C++) |
-
-| 4to Semestre |
-|--|
-| Análisis Numérico (C++) |
-| Variable Compleja y Análisis de Fourier (C, MATLAB, Mathematica, Lisp) |
-| Teoría de Autómatas (Neo4j Cypher, Python) |
+<p align="center">
+Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado <b>branches</b>.
+</p>
