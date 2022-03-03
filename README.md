@@ -18,6 +18,21 @@
 
 ---
 
-<p align="center">
-Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado <b>branches</b>.
-</p>
+> Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde [branches](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
+
+| 1er Semestre |
+|--|
+| Fundamentos de Programación (C) |
+
+| 2do Semestre |
+|--|
+| Álgebra Lineal (MATLAB) |
+| Cálculo Vectorial (MATLAB) |
+| Matemáticas Discretas (C++) |
+| Programación Orientada a Objetos (C++, Java) |
+
+| 3er Semestre |
+|--|
+| Ecuaciones Diferenciales (MATLAB) |
+| Circuitos Lógicos I (Proteus) |
+| Lenguajes de Bajo Nivel ( [Ensamblador Intel 8086](3er-Semestre/Lenguajes-de-Bajo-Nivel/emu8086) ) |
