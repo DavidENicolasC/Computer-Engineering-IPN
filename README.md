@@ -18,6 +18,9 @@
 
 ---
 
-<p align="center">
-Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado <b>branches</b>.
-</p>
+> Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado [branches](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
+
+
+| Trabajos Externos a la Carrera |
+|--|
+| [C++](Trabajos-Externos/C++) | 
