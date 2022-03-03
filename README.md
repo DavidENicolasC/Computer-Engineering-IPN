@@ -36,3 +36,11 @@
 | Ecuaciones Diferenciales (MATLAB) |
 | Circuitos Lógicos I (Proteus) |
 | Lenguajes de Bajo Nivel ( [Ensamblador Intel 8086](3er-Semestre/Lenguajes-de-Bajo-Nivel/emu8086) ) |
+
+| 4to Semestre |
+|--|
+| Análisis Numérico (C++) |
+| Variable Compleja y Análisis de Fourier (C, MATLAB, Mathematica, Lisp) |
+| Circuitos Lógicos II (Pendiente) |
+| Electrónica Analógica (Pendiente) |
+| Teoría de Autómatas ( [Neo4j Cypher](4to-Semestre/Teoria-de-Automatas/Neo4j/Cypher), [Jupyter Notebook](4to-Semestre/Teoria-de-Automatas/Python/Jupyter-Notebook/) ) |
