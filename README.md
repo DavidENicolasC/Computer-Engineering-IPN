@@ -18,6 +18,31 @@
 
 ---
 
-<p align="center">
-Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado <b>branches</b>.
+> Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde [branches](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
 </p>
+
+| 1er Semestre |
+|--|
+| Fundamentos de Programación (C) |
+
+| 2do Semestre |
+|--|
+| Álgebra Lineal (MATLAB) |
+| Cálculo Vectorial (MATLAB) |
+| Matemáticas Discretas (C++) |
+| Programación Orientada a Objetos (C++, Java) |
+
+| 3er Semestre |
+|--|
+| Ecuaciones Diferenciales (MATLAB) |
+| Circuitos Lógicos I (Proteus) |
+| Lenguajes de Bajo Nivel (Ensamblador Intel 8086) |
+| Estructura de Datos (C++) |
+
+| 4to Semestre |
+|--|
+| Análisis Numérico (C++) |
+| Variable Compleja y Análisis de Fourier (C, MATLAB, Mathematica, Lisp) |
+| Circuitos Lógicos II (Pendiente) |
+| Electrónica Analógica (Pendiente) |
+| Teoría de Autómatas ( [Neo4j Cypher](4to-Semestre/Teoria-de-Automatas/Neo4j/Cypher), [Jupyter Notebook](4to-Semestre/Teoria-de-Automatas/Python/Jupyter-Notebook/) ) |
