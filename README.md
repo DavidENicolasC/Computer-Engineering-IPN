@@ -20,6 +20,10 @@
 
 > Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde [branches](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
 
+| Trabajos Externos a la Carrera |
+|--|
+| [C++](Trabajos-Externos/C++) | 
+
 | 1er Semestre |
 |--|
 | Fundamentos de Programación (C) |
@@ -44,3 +48,4 @@
 | Circuitos Lógicos II (Pendiente) |
 | Electrónica Analógica (Pendiente) |
 | Teoría de Autómatas ( [Neo4j Cypher](4to-Semestre/Teoria-de-Automatas/Neo4j/Cypher), [Jupyter Notebook](4to-Semestre/Teoria-de-Automatas/Python/Jupyter-Notebook/) ) |
+
