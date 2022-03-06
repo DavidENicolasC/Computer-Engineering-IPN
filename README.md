@@ -18,9 +18,10 @@
 
 ---
 
-> Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso desde el apartado [branches](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
+> Las actividades están siendo desarrolladas en otras ramas y serán mezcladas con la rama <b>main</b> cuando sea apropiado. Mientras tanto, puede examinar el progreso [aquí](https://github.com/DavidENicolasC/Computer-Engineering-IPN/branches).
 
 
-| Trabajos Externos a la Carrera |
+| Trabajos / Cursos Externos a la Carrera |
 |--|
-| [C++](Trabajos-Externos/C++) | 
+| [C++](Trabajos-Externos/C++) |
+| [Phyton](Trabajos-Externos/Python/Jupyter-Notebook/Covid19-WebCrawler) |
