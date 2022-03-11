@@ -1,0 +1,222 @@
+<!--Esto es un comentario
+y pueden ser de multiples lineas.
+El comentario inicia en la primera etiqueta
+de apertura y termina hasta encontrarse con
+la primera etiqueta de cierre-->
+
+<!--Antes de todo, dado que el lenguaje HTML es un lenguaje en
+constante evolución, necesitamos indicarle al navegador qué versión
+de HTML estamos usando. Esto es especialmente importante para
+navegadores más antiguos.-->
+<!DOCTYPE html>
+<!--A continuacion, comenzamos nuestro documento HTML con el elemento
+html, cuyas etiquetas van al inicio y al final del documento HTML-->
+<html>
+<!--En el elemento head se incluye cualquier informacion relacionada
+al sitio y metadatos, como los que corresponden a los elementos
+link, meta, title y style-->
+<head>
+    Titulo de la pagina
+</head>
+<body>
+
+<!--Titulo de la pagina-->
+<h1>Titulo de la pagina</h1>
+
+<!--Elemento main de HTML5. Ayuda a localizar el contenido principal de la página-->
+<main>
+    <!--Elemento de HTML que indica un parrafo-->
+    <p>Kitty ipsum</p>
+
+    <!--Insertar imagenes en la pagina web-->
+    <!--Este es un elemento HTML auto-cerrado.-->
+    <img src="https://www.unsitio.com/miimagen.jpg" alt="Este texto aparece si la imagen falla al cargar">
+
+    <!--Enlazar a otras paginas mediante links.
+    target= es un atributo de enlace que especifica
+    donde se va a abrir el archivo. El valor"_blank"
+    indica que se abra en una nueva ventana.
+    -->
+    <a href="https://www.otrositio.com/" target="_blank">
+        Este texto se colocará como un hipervínculo en la página
+    </a>
+
+    <!--Enlazar a contenido interno de la pagina. El signo de almohadilla #
+    indica dentro de href el id del elemento al que hay que acceder.
+    Esto implica que se debe agregar el id al elemento al que se quiere enlazar-->
+    <a href="#footer">Este texto se colocara como un hipervínculo en la página</a>
+
+    <!--Hipervinculo dentro de un parrafo con texto plano-->
+    <p>
+        View more 
+        <a href="https://www.freecatphotoapp.com" target="_blank">
+            cat photos
+        </a>
+    </p>
+
+    <!--Cuando se desea agregar un elemento de enlace pero aún no se
+    tiene el link, se puede colocar una almohadilla # en el atributo
+    href para indicar un link muerto. Al dar click en el hipervínculo
+    te lleva de nuevo a la página en la que estabas-->
+    <p>Click here to view more 
+        <a href="#" target="_blank">
+            cat photos
+        </a>.
+    </p>
+
+    <!--Imagenes que se convierten en enlaces.
+    Aquí, href será la dirección web a la que se enlazará.
+    si se coloca el simbolo de almohadilla, significa que
+    es un enlace muerto-->
+    <a href="#">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </a>
+
+    <!--Contenido interno del sitio al que se va a enlazar. Notar el id agregado-->
+    <footer id="footer">
+        Pie de pagina del sitio
+    </footer>
+
+    <!--div, también conocido como elemento de división, es
+    probablemente el elemento HTML mas utilizado. Se trata de
+    un contenedor de proposito general que contiene a otros
+    elementos-->
+    <div>
+        <!--Lista desordenada. Los elementos son listados con un punto-->
+        <ul>
+            <!--Elementos de la lista desordenada-->
+            <li>milk</li>
+            <li>cheese</li>
+        </ul>
+
+        <!--Lista ordenada. Los elementos son listados con numeros-->
+        <ol>
+            <li>Dogs</li>
+            <li>Other Cats</li>
+            <li>Humans</li>
+        </ol>
+    </div>
+    
+    <!--Elemento de entrada de datos del usuario
+    el atributo type indica el tipo de elemento
+    de entrada de datos-->
+    <input type="text">
+
+    <!--Elemento de entrada de datos del usuario
+    con un texto mostrado antes de que el usuario escriba.
+    el atributo placeholder recibe el texto que sera
+    mostrado antes de que el usuario escriba-->
+    <input type="text" placeholder="Escriba algo aqui">
+
+    <!--Enviar datos a un servidor.
+    Se puede hacer directamente desde HTML con el elemento
+    form. El atributo action indica la URL del servidor
+    donde será subida la información-->
+    <form action="https://www.servidores.com/miservidor">
+        <input type="text" placeholder="cat photo URL">
+        <!--Se puede añadir un boton para subir
+        la informacion que se recibio en este formulario.
+        el atributo type indica el tipo de boton-->
+        <button type="submit">
+            Subir informacion
+          </button>
+    </form>
+
+    <!--Si al elemento de datos de entrada del usuario
+    le agregamos el atributo required (HTML5), si el usuario
+    intenta subir la informacion sin cargar dicho
+    campo, la página le informará que no podrá hacerlo
+    sin antes subir dicha información-->
+    <form action="https://www.servidores.com/miservidor">
+
+        <!--Un elemento de entrada-->
+        <input type="text" placeholder="cat photo URL" required>
+
+        <!--Si necesitamos que el usuario conteste solo una de varias
+        opciones, podemos añadir un conjunto de botones de radio.
+        Aquí, cada uno de ellos se agrupa dentro de un elemento label, lo
+        que logra que ese elemento label se asocie con el elemento input.
+        Para poder lograr que solo uno de ellos se seleccione, de manera
+        que cuando se seleccione otro automaticamente se deseleccione el que
+        estaba seleccionado, tenemos que colocarle a cada elemento de entrada
+        el mismo valor del atributo name, para así crear un grupo de botones
+        de radio-->
+        <!--Al momento de cargar los datos al servidor, necesitamos saber qué
+        valor fue escogido. Podemos especificar el valor que los datos devolverán
+        al servidor con el atributo value. En este caso, el formato de los datos
+        devueltos será de la forma name=value donde name será reemplazado por el
+        valor del atributo name y value será reemplazado por el valor del atributo
+        value. Por ejemplo, si el usuario selecciona "Indoor", el valor devuelto
+        al servidor será de la forma indoor-outdoor=indoor. Si omitimos darle un
+        valor al atributo value, el valor devuelto será name=on, lo cual no es muy util.-->
+        <!--Si deseamos que una opcion esté marcada por defecto, podemos agregarle
+        el atributo checked al elemento de entrada deseado-->
+        <label>
+            <input type="radio" value="indoor" name="indoor-outdoor" checked>Indoor
+        </label>
+        <label>
+            <input type="radio" value="outdoor" name="indoor-outdoor">Outdoor
+        </label>
+
+        <!--Aunque se considera una mejor práctica asignarle al elemento de
+        entrada un id al que el elemento label hará referencia con for, ya que las
+        tecnologías asistidas podrán crear una relación ligada entre el elemento
+        label y el elemento input-->
+        <input id="indoor" value="otrobotonderadio" type="radio" name="indoor-outdoor">
+        <label for="indoor">Otro boton de radio</label>
+
+        <!--Tambien se puede incluir el elemento input dentro del elemento label
+        con el id ya asignado-->
+        <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor">Un boton de radio mas
+        </label>
+
+        <!--Si deseamos que el usuario conteste algunas opciones de un conjunto,
+        podemos añadir un conjunto de checkboxes, Tambien es un elemento input.
+        Funciona igual que con los botones de radio; Colocar un elemento input
+        dentro de un element label asociará dicho elemento.-->
+        <!--Al igual que sucedia con los botones de radio, Al momento de cargar
+        los datos al servidor, necesitamos saber qué valor fue escogido. Podemos
+        especificar el valor que los datos devolverán al servidor con el atributo
+        value. En este caso, el formato de los datos devueltos será de la forma
+        name=value donde name será reemplazado por el valor del atributo name y
+        value será reemplazado por el valor del atributo value. Por ejemplo, si el
+        usuario selecciona "Indoor", el valor devuelto al servidor será de la forma
+        indoor-outdoor=indoor. Si omitimos darle un valor al atributo value, el valor
+        devuelto será name=on, lo cual no es muy util.-->
+        <!--Al igual que con los botones de radio, si deseamos que una opcion esté
+        marcada por defecto, podemos agregarle el atributo checked al elemento de entrada
+        deseado-->
+        <label>
+            <input type="checkbox" value="loving" name="personality" checked>Loving
+        </label>
+        <label>
+            <input type="checkbox" value="noble" name="personality">Noble
+        </label>
+        <label>
+            <input type="checkbox" value="honey" name="personality">Honey
+        </label>
+
+        <!--Tambien se considera una mejor practica el enlazar el elemento label
+        con el elemento input a través de la combinación de los atributos
+        for-id -->
+        <input id="loving" type="checkbox" name="personality">
+        <label for="loving">Loving</label>
+
+        <!--Tambien se puede incluir el elemento input dentro del elemento label
+        con el id ya asignado-->
+        <label id="loving">
+            <input id="loving" type="checkbox" name="personality">Loving
+        </label>
+
+        <!--Se puede añadir un boton para subir
+        la informacion que se recibio en este formulario.
+        el atributo type indica el tipo de boton-->
+        <button type="submit">
+            Subir informacion
+          </button>
+    </form>
+
+</main>
+</body>
+</html>
