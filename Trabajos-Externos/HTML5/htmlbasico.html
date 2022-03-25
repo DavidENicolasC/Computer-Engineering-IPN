@@ -4,6 +4,51 @@ El comentario inicia en la primera etiqueta
 de apertura y termina hasta encontrarse con
 la primera etiqueta de cierre-->
 
+<!--Si queremos importar fuentes externas,
+podemos incluirlas con el siguiente codigo
+(para este ejemplo se utilizo Loobster de Google Fonts)-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<!--Elemento de estilo CSS-->
+<style>
+    /*Este es un comentario
+    de CSS de multiples lineas*/
+
+    /*Selector de CSS
+    La propiedad color indica que todos los elementos input deben
+    tener cierto color (en este caso rojo). La propiedad font-size
+    cambia el tamaño de la fuente (en pixeles). La propiedad
+    font-family cambia la fuente del texto (como sans-serif)*/
+    input {
+        color: red;
+        font-size: 20px;
+        font-family: arial;
+        /*Aqui ya se puede utilizar la fuente importada.
+        Si el nombre de la fuente tiene espacios, se deben
+        de incluir y con comillas dobles*/
+        /*Si no se encuentra la fuente indicada, se le puede
+        decir al navegador que le de una fuente secundaria
+        (de preferencia mas generica). Esto se hace con el
+        segundo valor de la propiedad (despues de la coma)*/
+        /*Las fuentes genericas no son sensibles a las mayusculas;
+        el resto sí.*/
+        font-family: Loobster, monospace;
+    }
+
+    /*Clase CSS; un estilo reutilizable que pueden adquirir
+    varios elementos HTML. Hay que notar que en el elemento
+    CSS, las clases empiezan con un punto; sin embargo, en
+    los elementos HTML no se incluye*/
+    .blue-text {
+        color: blue;
+    }
+
+    /*Si se quiere escalar las imagenes a un tamaño fijo, se
+    puede crear una clase CSS que lo especifique con el atributo
+    width.*/
+    .smaller-image {
+        width: 100px;
+    }
+</style>
 <!--Antes de todo, dado que el lenguaje HTML es un lenguaje en
 constante evolución, necesitamos indicarle al navegador qué versión
 de HTML estamos usando. Esto es especialmente importante para
@@ -21,7 +66,13 @@ link, meta, title y style-->
 <body>
 
 <!--Titulo de la pagina-->
-<h1>Titulo de la pagina</h1>
+<!--La propiedad color del atributo style establece el color del texto.
+Es buena práctica terminar las declaraciones de style en una linea con un ;
+style es una propiedad en una sola línea de CSS-->
+<h1 style="color: red;">Titulo de la pagina</h1>
+
+<!--El atributo class indica la clase CSS del elemento style a utilizar-->
+<h2 class="blue-text">Subtitulo de la pagina</h2>
 
 <!--Elemento main de HTML5. Ayuda a localizar el contenido principal de la página-->
 <main>
@@ -68,8 +119,10 @@ link, meta, title y style-->
     Aquí, href será la dirección web a la que se enlazará.
     si se coloca el simbolo de almohadilla, significa que
     es un enlace muerto-->
+    <!--Se le puede agregar el nombre de una clase CSS para
+    que dichos elementos reciban el estilo especificado.-->
     <a href="#">
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." class="smaller-image">
     </a>
 
     <!--Contenido interno del sitio al que se va a enlazar. Notar el id agregado-->
@@ -101,12 +154,14 @@ link, meta, title y style-->
     el atributo type indica el tipo de elemento
     de entrada de datos-->
     <input type="text">
+    <br>    <!--Salto de linea-->
 
     <!--Elemento de entrada de datos del usuario
     con un texto mostrado antes de que el usuario escriba.
     el atributo placeholder recibe el texto que sera
     mostrado antes de que el usuario escriba-->
     <input type="text" placeholder="Escriba algo aqui">
+    <br>
 
     <!--Enviar datos a un servidor.
     Se puede hacer directamente desde HTML con el elemento
@@ -114,6 +169,7 @@ link, meta, title y style-->
     donde será subida la información-->
     <form action="https://www.servidores.com/miservidor">
         <input type="text" placeholder="cat photo URL">
+        <br>
         <!--Se puede añadir un boton para subir
         la informacion que se recibio en este formulario.
         el atributo type indica el tipo de boton-->
@@ -131,6 +187,7 @@ link, meta, title y style-->
 
         <!--Un elemento de entrada-->
         <input type="text" placeholder="cat photo URL" required>
+        <br>
 
         <!--Si necesitamos que el usuario conteste solo una de varias
         opciones, podemos añadir un conjunto de botones de radio.
@@ -170,6 +227,7 @@ link, meta, title y style-->
         <label for="indoor">
             <input id="indoor" type="radio" name="indoor-outdoor">Un boton de radio mas
         </label>
+        <br>
 
         <!--Si deseamos que el usuario conteste algunas opciones de un conjunto,
         podemos añadir un conjunto de checkboxes, Tambien es un elemento input.
@@ -208,6 +266,7 @@ link, meta, title y style-->
         <label id="loving">
             <input id="loving" type="checkbox" name="personality">Loving
         </label>
+        <br>
 
         <!--Se puede añadir un boton para subir
         la informacion que se recibio en este formulario.

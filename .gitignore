@@ -1,1 +1,8 @@
-Trabajos-Externos/Python/Jupyter-Notebook/Covid19-WebCrawler/.ipynb_checkpoints/*
+# Configuracion de VSCode
+**/.vscode/*
+
+# Puntos de guardado de Jupyter Notebook
+**/.ipynb_checkpoints/*
+
+# Programas
+**/.exe
